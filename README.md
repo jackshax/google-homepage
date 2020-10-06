@@ -1,1 +1,1 @@
-Hi
+I am currently recreating Google's homepage using HTML and CSS for the Odin Project.

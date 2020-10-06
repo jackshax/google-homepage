@@ -1,12 +1,25 @@
     .topnav {
-        position: fixed;
-        top: 0%;
-        text-align: justify;
+        float: left;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 12px;
-        padding: 20px;
+        font-size: 13px;
+        padding: 3px;
         background-color: #FFFFFF;
         color: #111111;
+    }
+    ul {
+        list-style: none;
+        margin: 1px;
+        padding: 5px;
+        overflow: hidden;
+    }
+    li {
+        float: left;
+    }
+    li a {
+        display: block;
+        text-align: center;
+        padding: 6px;
+        text-decoration: none;
     }
     footer {
         position: fixed;
@@ -26,18 +39,15 @@
         padding: 10px;
         color: black;
     }
-    .logo {
+    div {
+        position:relative;
+        height: 100%;
+        width: 100%;
         
-        
-        width: auto;
     }
     .searchbar {
         float: middle;
     }
-    .searchbar input{
-        
-      }
-
     button {
         height: 40px;
         width: 140px;
@@ -49,5 +59,4 @@
     button:hover {
         color: black;
         border: 5px #111111;
-        
     }
