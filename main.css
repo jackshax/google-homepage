@@ -52,9 +52,24 @@ button {
 }
 button:hover {
     color: black;
-    margin: 1px;
-    border: 5px, black;
+    margin: 0px;
 }
 .logo {
     margin-top: 11%;
+}
+input {
+    background-image: url("https://static.thenounproject.com/png/101791-200.png") top;
+    width: 570px;
+    height: 35px;
+    font-size: 17px;
+    border-radius: 20px;
+    border-color: rgba(220, 220, 220, 0.7)
+}
+ul .left {
+  display: flex;
+  justify-content: space-evenly;
+}
+ul .right {
+    display: flex;
+    justify-content: space-evenly;
 }
