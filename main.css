@@ -52,6 +52,9 @@ button {
 }
 button:hover {
     color: black;
-    margin: px;
+    margin: 1px;
     border: 5px, black;
+}
+.logo {
+    margin-top: 11%;
 }
