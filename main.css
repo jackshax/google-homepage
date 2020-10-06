@@ -1,0 +1,53 @@
+    .topnav {
+        position: fixed;
+        top: 0%;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        padding: 20px;
+        background-color: #FFFFFF;
+        color: #111111;
+    }
+    footer {
+        position: fixed;
+        bottom: 0%;
+        width: 100%;
+        
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        background-color: #EEEEEE;
+        color: #CCCCCC;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        font-size: 14px;
+        padding: 10px;
+        color: black;
+    }
+    .logo {
+        
+        
+        width: auto;
+    }
+    .searchbar {
+        float: middle;
+    }
+    .searchbar input{
+        
+      }
+
+    button {
+        height: 40px;
+        width: 140px;
+        border: none;
+        border-radius: 5px;
+        transition-duration: 2ms;
+        color: grey;
+    }
+    button:hover {
+        color: black;
+        border: 5px #111111;
+        
+    }
