@@ -58,7 +58,7 @@ button:hover {
     margin-top: 11%;
 }
 input {
-    background-image: url("https://static.thenounproject.com/png/101791-200.png") top;
+    /* background-image: url("https://static.thenounproject.com/png/101791-200.png") top; */
     width: 570px;
     height: 35px;
     font-size: 17px;
@@ -66,10 +66,13 @@ input {
     border-color: rgba(220, 220, 220, 0.7)
 }
 ul .left {
-  display: flex;
-  justify-content: space-evenly;
+    float: left;
+    justify-content: space-evenly;
 }
 ul .right {
-    display: flex;
+    float: right;
     justify-content: space-evenly;
+}
+.push.right {
+    float: right;
 }
